@@ -5,3 +5,4 @@ type HomeScreenProps = {
 };
 
 export type DrawerProps = DrawerNavigationProp<HomeScreenProps, 'HomePage'>;
+

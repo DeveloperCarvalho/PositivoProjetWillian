@@ -13,7 +13,9 @@ const Drawer = createDrawerNavigator();
 function HomeNavigator(): ReactElement {
     return (
         <Drawer.Navigator>
-            <Drawer.Screen name="HomePage" component={HomeScreen} />
+            <Drawer.Screen name="Home" component={HomeScreen} />
+            <Drawer.Screen name="Album" component={HomeScreen} />
+            <Drawer.Screen name="Posts" component={HomeScreen} />
         </Drawer.Navigator>
     );
 }
