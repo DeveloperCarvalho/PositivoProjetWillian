@@ -9,11 +9,10 @@ import {
     BoxMedia,
     BoxTitle,
     Title,
-} from './styles';
+} from './style';
 
 import Header from '../../components/Header';
 import { DrawerProps } from '../../routes/types/DrawerTypes';
-import IconPlus from '../../assets/icons/plus.png';
 import IconeImg from '../../assets/icons/description.png';
 import IconePost from '../../assets/icons/dashboard.png';
 

@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import HomeScreen from '../screens/Home';
 import AlbunScreen from '../screens/Albuns';
+import PostsScreen from '../screens/Posts';
 
 interface INavigationProps {
     signed: boolean;
@@ -16,7 +17,7 @@ function HomeNavigator(): ReactElement {
         <Drawer.Navigator>
             <Drawer.Screen name="Home" component={HomeScreen} />
             <Drawer.Screen name="Albuns" component={AlbunScreen} />
-            <Drawer.Screen name="Posts" component={HomeScreen} />
+            <Drawer.Screen name="Posts" component={PostsScreen} />
         </Drawer.Navigator>
     );
 }
