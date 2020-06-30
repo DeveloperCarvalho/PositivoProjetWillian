@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
-
-import posts from './posts';
+import Posts from './posts';
+import Albuns from './albuns';
 
 export default combineReducers({
-    posts,
+    Posts,
+    Albuns
 });
