@@ -1,0 +1,20 @@
+[
+  {
+    "id":"1",
+    "createdAt":"2020-06-26T09:00:12.233Z",
+    "name":"Oral Schroeder III",
+    "avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/n_tassone/128.jpg"
+    },
+    {
+      "id":"2",
+      "createdAt":"2020-06-26T04:33:33.996Z",
+      "name":"Grady Vandervort",
+      "avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/herrhaase/128.jpg"
+      },
+      {
+        "id":"3",
+        "createdAt":"2020-06-26T04:33:33.996Z",
+        "name":"Betty Vandervort",
+        "avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/herrhaase/128.jpg"
+        }
+    ]
